@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ticket Creation</title>
+	<style type="text/css">
+		.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+		div {
+  color: white;
+  background: grey;
+  opacity: 0.8;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+} 
+body{
+background-image: url("https://content.fortune.com/wp-content/uploads/2020/04/GettyImages-656544055_web.jpg");
+	  background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	</style>
+</head>
+<body>
+	<div><center>
+			<table>
+				
+			<tr>
+	<td> <label for="fname">First name</label></td>
+	<td>
+	 <input type="text" id="fname" name="fname"><br><br></td></tr>
+	<tr><td> <label for="To">To</label></td>
+	<td> <input type="text" id="To" name="To"><br><br><td></tr>
+	<tr><td> <label for="Cc">Cc</label></td>
+	<td> <input type="text" id="Cc" name="Cc"><br><br></td></tr>
+	<tr><td> <label for="Subject">Subject</label></td>
+	<td> <input type="Subject" id="Subject" name="Subject"><br><br></td></tr>
+	<tr><td> <label for="Module">Module</label></td>
+	<td> <input type="Module" id="Module" name="Module"><br><br></td></tr>
+
+	 <tr><td> <label for="Priority">Priority:</label></td>
+  <td><select name="cars" id="cars">
+    <option value="Immediately">Immediately</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+  </select></td></tr>
+  <br><br>
+  <tr><td><label for="Message">Message</label>
+  	<td><textarea name="message" rows="10" cols="30" placeholder="Enter your Message here. "></textarea></td></tr>
+  <tr><td colspan="2" align="center"> <input type="file" id="myFile" name="myFile" value="myFile"></td></tr>
+  <br><br>
+
+  <tr><td colspan="3" align="center">	<button class="button" >Submit</button> <td></tr>
+</center>
+</table>
+     </div>
+
+
+
+</body>
+</html>
